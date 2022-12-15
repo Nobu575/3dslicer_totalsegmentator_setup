@@ -12,23 +12,23 @@
 
 ## インストール
 1. 3D Slicerを起動し、「View」から「Extensions Manager」を選択します。  
-<div align="center"><img src="img/install_01.png" width="480"></div>
+<img src="img/install_01.png" width="480">
 2. Extensions Managerの右上にある「Search」で「TotalSegmentator」と検索すると、該当するモジュールが表示されます。  
-<div align="center"><img src="img/install_02.png" width="480"></div>
+<img src="img/install_02.png" width="480">
 3. 「Install」をクリックします。
 4. 3D Slicerを再起動します。
 
 ## 実行
 1. CT画像を読み込みます（DICOM形式やnii.gz形式など）。
 2. モジュール検索をクリックします。「Module finder」が起動します。  
-<div align="center"><img src="img/install_03.png" width="480"></div>
+<img src="img/install_03.png" width="480">
 3. 左上の検索バーで「TotalSegmentator」を検索すると、当該モジュールが見つかりますので、「Switch to module」をクリックします。  
-<div align="center"><img src="img/install_04.png" width="480"></div>
-4. 「Apply」をクリックするとTotalSegmentatorが動作します。
-<div align="center"><img src="img/install_05.png" width="480"></div>
+<img src="img/install_04.png" width="480">
+4. 「Apply」をクリックするとTotalSegmentatorが動作します。  
+<img src="img/install_05.png" width="480">
 
 ## 実行結果例
-<div align="center"><img src="img/install_06.png" width="480"></div>
+<img src="img/install_06.png" width="480">
 
 ## 参考文献
 - TotalSegmentatorのGitHubリポジトリは[こちら](https://github.com/wasserth/TotalSegmentator
