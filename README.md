@@ -34,3 +34,10 @@
 - TotalSegmentatorのGitHubリポジトリは[こちら](https://github.com/wasserth/TotalSegmentator
 )
 - Wasserthal, Jakob, et al. "TotalSegmentator: robust segmentation of 104 anatomical structures in CT images." arXiv preprint arXiv:2208.05868 (2022). ([arXiv](https://arxiv.org/abs/2208.05868))
+
+## 付録 - オフラインインストールするには？
+オフラインインストールについては[こちら](conglaturation)に書かれています。
+```
+TotalSegmentator downloads additional Python packages and models. All Slicer installation trees are fully portable, so if you can copy the %localappdata%/NA-MIC/Slicer 5.2.1 folder to the offline computer that will contain all Slicer extension and Python packages. In addition to that you also need to copy the downloaded model weights cached in %userprofile%\.totalsegmentator.
+```
+TotalSegmentatorをインストールする際、追加のPythonパッケージとモデルがダウンロードされます。全ての Slicer installation tree は完全にポータブルなので、オンラインで環境構築後に上記のフォルダ群をオフラインコンピュータにコピーすれば動作するようです。
